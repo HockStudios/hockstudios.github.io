@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="utf-8" />
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="yes" name="apple-touch-fullscreen">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="320" name="MobileOptimized">
+		<title>幻影工作室 - 友情链接</title>
+        <link rel="stylesheet" href="index.css"/>
+                                <link rel="icon" type="image/x-icon" href="./images/ico.ico"/>
+		<link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css" />
+	</head>
+	<body id="top" class="mdui-theme-layout-dark mdui-drawer-body-left">
+		<!--顶部标题栏-->
+		<div class="mdui-toolbar mdui-shadow-10">
+		    <a class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target: '#left-drawer'}" mdui-drawer-close><i class="mdui-icon material-icons">&#xe5d2;</i></a>
+		  <span class="mdui-typo-title">友情链接</span>
+		  <div class="mdui-toolbar-spacer"></div>
+		  <a href="javascript:location.reload();" class="mdui-btn mdui-btn-icon mdui-ripple">
+		    <i class="mdui-icon material-icons">refresh</i>
+		  </a>
+		  <a href="javascript:;" class="mdui-btn mdui-btn-icon mdui-ripple">
+		    <i class="mdui-icon material-icons">more_vert</i>
+		  </a>
+		</div>
+		<!--侧边栏-->
+		 <div class="mdui-drawer mdui-shadow-24" id="left-drawer">
+			 <div class="mdui-grid-tile">
+			   <a href="javascript:;"><img src="./images/top.png"/></a>
+			   <div class="mdui-grid-tile-actions">
+			     <div class="mdui-grid-tile-text">
+			       <div class="mdui-grid-tile-title">菜单界面</div>
+			     </div>
+			   </div>
+			 </div>
+			 <ul class="mdui-list">
+			   <a href="index.html">
+			   <li class="mdui-list-item mdui-ripple">
+               <i class="mdui-list-item-icon mdui-icon material-icons">&#xe88a;</i>
+			     <div class="mdui-list-item-content">主页</div>
+			   </li>
+			   </a>
+			   <a href="./blogs/index.html">
+			   <li class="mdui-list-item mdui-ripple">
+			     <i class="mdui-list-item-icon mdui-icon material-icons">&#xe865;</i>
+			     <div class="mdui-list-item-content">文章</div>
+			   </li>
+			   </a>
+			   <a href="#">
+			   <li class="mdui-list-item mdui-ripple">
+			     <i class="mdui-list-item-icon mdui-icon material-icons">send</i>
+			     <div class="mdui-list-item-content">友链</div>
+			   </li>
+			   </a>
+			 </ul>
+
+		  </div>
+		  <!--悬浮按钮(右下方)-->
+		  <div class="mdui-fab-wrapper" id="exampleFab">
+		    <a href="#top" class="mdui-fab mdui-ripple mdui-color-theme-accent mdui-color-grey-700">
+		      <!-- 显示的图标 -->
+		      <i class="mdui-icon material-icons">&#xe5d8;</i>
+		    </a>
+		  </div>
+		  <!--文章内容-->
+		  <div id="blogs">
+			  <div class="mdui-hoverable mdui-shadow-16 mdui-card mdui-m-x-5 mdui-m-y-5 mdui-p-x-3 mdui-p-y-2">
+				  <div>
+				  <h1 class="mdui-text-center">友情链接(排名不分前后)</h1>
+				  <p style="font-size: larger;">&nbsp;<a class="mdui-text-color-blue" href="https://nandedream.cf">楠之梦Minecraft服务器</a>&nbsp;一款插件生存服务器</p>
+				  <p style="font-size: larger;">&nbsp;<a class="mdui-text-color-blue" href="https://bilibili.com">哔哩哔哩(Bilibili)</a>&nbsp;我大B站</p>
+				  <p style="font-size: larger;">&nbsp;<a class="mdui-text-color-blue" href="https://minecraft.net">Minecraft(我的世界)</a>&nbsp;全球销量第一的沙盒游戏</p>
+				  <p style="font-size: larger;">&nbsp;<a class="mdui-text-color-blue" href="https://fortnite.com">Fortnite(堡垒之夜)</a>&nbsp;全球第一的大逃杀类游戏</p>
+				  </div>
+			  </div>
+		  </div>
+		  <footer>
+			  <div style="color: darkgray;" class="mdui-text-center">
+			  Theme By AuogSix
+			  </div>
+              <div style="color: darkgray;" class="mdui-text-center">
+			 &copy; Copyright By HockStudios
+			 </div>
+		  </footer>
+		<script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
+	</body>
+</html>

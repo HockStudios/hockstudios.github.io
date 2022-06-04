@@ -1,0 +1,11 @@
+.container{ width:1100px; max-width:100%; }
+.container img{ max-width:100%; }
+ 
+@media only screen and (max-width: 480px) {
+           //此适配不同手机型号下文字，图片的大小
+}
+ 
+@media only screen and (max-width: 375px) {
+ 
+            //此适配不同手机型号下文字，图片的大小
+}
