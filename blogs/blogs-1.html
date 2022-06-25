@@ -12,7 +12,7 @@
                                 <link rel="icon" type="image/x-icon" href="../images/ico.ico"/>
 		<link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css" />
 	</head>
-	<body id="top" class="mdui-theme-layout-dark mdui-drawer-body-left">
+	<body id="top" class="mdui-theme-accent-pink mdui-drawer-body-left">
 		<!--顶部标题栏-->
 		<div class="mdui-toolbar mdui-shadow-10">
 		    <a class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target: '#left-drawer'}" mdui-drawer-close><i class="mdui-icon material-icons">&#xe5d2;</i></a>
@@ -21,8 +21,8 @@
 		  <a href="javascript:location.reload();" class="mdui-btn mdui-btn-icon mdui-ripple">
 		    <i class="mdui-icon material-icons">refresh</i>
 		  </a>
-		  <a href="javascript:;" class="mdui-btn mdui-btn-icon mdui-ripple">
-		    <i class="mdui-icon material-icons">more_vert</i>
+	  <a href="javascript:;" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" onclick="mdui.$('body').toggleClass('mdui-theme-layout-dark')">
+		  	<i class="mdui-icon material-icons">color_lens</i>
 		  </a>
 		</div>
 		<!--侧边栏-->
@@ -77,9 +77,16 @@
 				  <p style="font-size: larger;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.更好的线条</p>
 				  <p style="font-size: larger;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.重新绘制全部贴图</p>
 				  <p style="font-size: larger;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.其他BUG的修复与优化</p>
-				  <p style="font-size: larger;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下载地址:暂未公布(以后会公布)</p>
+				  <p style="font-size: larger;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下载地址:<a style="color : pink ;" href="../add-on/font/font1.ttf" download="HockSquare">点击下载</a></p>
 				  <p style="font-size: larger;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此字体是需付费商用的，若无付费，请不要作用于商业用途</p>
 				  </div>
+                                          <!--文章信息-->
+                                          <div class="mdui-divider">
+                                          </div>
+                                          <br />
+                                          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发布时间:2022-6-3<p class="mdui-text-right">作者:AuogSix</span></p>
+                                          <div>
+                                          </div>
 			  </div>
 		  </div>
 		  <footer>

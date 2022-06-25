@@ -1,0 +1,8 @@
+@font-face {
+     font-family: 'HockSquare';
+     src: url('font1.ttf');
+}
+.font1 {
+    font-family: 'HockSquare';
+    font-size: 18px;
+}

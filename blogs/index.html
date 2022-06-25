@@ -12,7 +12,7 @@
                                 <link rel="icon" type="image/x-icon" href="../images/ico.ico"/>
 		<link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css" />
 	</head>
-	<body id="top" class="mdui-theme-layout-dark mdui-drawer-body-left">
+	<body id="top" class="mdui-theme-accent-pink mdui-drawer-body-left">
 		<!--顶部标题栏-->
 		<div class="mdui-toolbar mdui-shadow-10">
 		    <a class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target: '#left-drawer'}" mdui-drawer-close><i class="mdui-icon material-icons">&#xe5d2;</i></a>
@@ -21,8 +21,8 @@
 		  <a href="javascript:location.reload();" class="mdui-btn mdui-btn-icon mdui-ripple">
 		    <i class="mdui-icon material-icons">refresh</i>
 		  </a>
-		  <a href="javascript:;" class="mdui-btn mdui-btn-icon mdui-ripple">
-		    <i class="mdui-icon material-icons">more_vert</i>
+		  <a href="javascript:;" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" onclick="mdui.$('body').toggleClass('mdui-theme-layout-dark')">
+		  	<i class="mdui-icon material-icons">color_lens</i>
 		  </a>
 		</div>
 		<!--侧边栏-->
@@ -69,11 +69,11 @@
 			  <div class="mdui-hoverable mdui-shadow-16 mdui-card mdui-m-x-5 mdui-m-y-5 mdui-p-x-3 mdui-p-y-2">
 				  <div>
 				  <p style="font-size: x-large;">幻影方正字体发布</p>
-				  <p style="font-size: larger; color: darkgray;">一款好看，简洁，大方的以方正为主的字体</p>
+				  <p style="font-size: larger;">一款好看，简洁，大方的以方正为主的字体</p>
 				  </div>
-				  <div class="mdui-divider-light"></div>
+				  <div class="mdui-divider"></div>
 				  <div class="mdui-m-t-1">
-					  <span style="font-size: 15px; color: darkgray;">发布时间:2022-6-3</span>
+					  <span style="font-size: 15px;">发布时间:2022-6-3</span>
 					  <a href="blogs-1.html" class="mdui-btn-raised mdui-btn mdui-float-right mdui-color-grey-700">阅读更多</a>
 				  </div>
 			  </div>
