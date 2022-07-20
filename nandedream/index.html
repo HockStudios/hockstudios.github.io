@@ -7,28 +7,25 @@
 		<meta content="yes" name="apple-touch-fullscreen">
 		<meta content="black" name="apple-mobile-web-app-status-bar-style">
 		<meta content="320" name="MobileOptimized">
-		<title>幻影工作室 - 主页</title>
+		<title>楠之梦</title>
         <link rel="stylesheet" href="index.css"/>
                                 <link rel="icon" type="image/x-icon" href="./images/ico.ico"/>
 		<link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css" />
 	</head>
-	<body id="top" class="mdui-theme-accent-pink mdui-drawer-body-left ">
+	<body id="top" class="mdui-theme-layout-auto mdui-theme-accent-pink mdui-drawer-body-left ">
 		<!--顶部标题栏-->
 		<div class="mdui-toolbar mdui-shadow-10">
 		    <a class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target: '#left-drawer'}" mdui-drawer-close><i class="mdui-icon material-icons">&#xe5d2;</i></a>
-		  <span class="mdui-typo-title">主页</span>
+		  <span class="mdui-typo-title">楠之梦</span>
 		  <div class="mdui-toolbar-spacer"></div>
 		  <a href="javascript:location.reload();" class="mdui-btn mdui-btn-icon mdui-ripple">
 		    <i class="mdui-icon material-icons">refresh</i>
-		  </a>
-		  <a href="javascript:;" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" onclick="mdui.$('body').toggleClass('mdui-theme-layout-dark')">
-			  <i class="mdui-icon material-icons">color_lens</i>
 		  </a>
 		</div>
 		<!--侧边栏-->
 		 <div class="mdui-drawer mdui-shadow-24" id="left-drawer">
 			 <div class="mdui-grid-tile">
-			   <a href="javascript:;"><img src="./images/bg.jpg"/></a>
+			   <a href="javascript:;"><img src="../images/bg.jpg"/></a>
 			   <div class="mdui-grid-tile-actions">
 			     <div class="mdui-grid-tile-text">
 			       <div class="mdui-grid-tile-title">菜单界面</div>
@@ -42,18 +39,18 @@
 			     <div class="mdui-list-item-content">主页</div>
 			   </li>
 			   </a>
-			   <a href="./blogs/index.html">
-			   <li class="mdui-list-item mdui-ripple">
-			     <i class="mdui-list-item-icon mdui-icon material-icons">&#xe865;</i>
-			     <div class="mdui-list-item-content">文章</div>
-			   </li>
-			   </a>
-			   <a href="friends.html">
-			   <li class="mdui-list-item mdui-ripple">
+			   <a href="https://nandedream.cf">
+			   <li class="mdui-list-item mdui-ripple">`
 			     <i class="mdui-list-item-icon mdui-icon material-icons">send</i>
-			     <div class="mdui-list-item-content">友链</div>
+			     <div class="mdui-list-item-content">楠之梦</div>
 			   </li>
 			   </a>
+			   <a href="https://hockstudios.cf">
+				<li class="mdui-list-item mdui-ripple">`
+				  <i class="mdui-list-item-icon mdui-icon material-icons">send</i>
+				  <div class="mdui-list-item-content">HockStudios</div>
+				</li>
+				</a>
 			 </ul>
 
 		  </div>
@@ -64,16 +61,74 @@
 		      <i class="mdui-icon material-icons">&#xe5d8;</i>
 		    </a>
 		  </div>
-		  <!--文章内容-->
-		  <div id="about-us">
+		  <div id="about">
 			  <div class="mdui-hoverable mdui-shadow-16 mdui-card mdui-m-x-5 mdui-m-y-5 mdui-p-x-3 mdui-p-y-2">
 				  <div>
-				  <h1 class="mdui-text-center">关于我们</h1>
-                  <h3>我们是一个位于山东临沂的小工作室，主要开发Web，游戏和Minecraft资源。我们成立于2019年，已经走过了三个年头了呢。我们目前有主力员工三人，游戏策划两人。感谢各位的一路陪伴~目前工作室各位成员基本在B站，您可以直接从B站关注我们</h3>
+				  <h1 class="mdui-text-center">关于</h1>
+                  <h3>本页是楠之梦服务器大事件,各个组织详情信息记录页等等</h3>
 				  </div>
 			  </div>
 		  </div>
 		  </div>
+		  <div id="timed">
+			<div class="mdui-hoverable mdui-shadow-16 mdui-card mdui-m-x-5 mdui-m-y-5 mdui-p-x-3 mdui-p-y-2">
+			<div style="color: red;">
+				<span>服务器剩余时间:</span>
+				<span id="t_d">00天</span> 
+				<span id="t_h">00时</span> 
+				<span id="t_m">00分</span> 
+				<span id="t_s">00秒</span> 
+			</div>
+		</div>
+		</div>
+		  <!--服务器组织-->
+		  <div class="mdui-hoverable mdui-shadow-16 mdui-card mdui-m-x-5 mdui-m-y-5 mdui-p-x-3 mdui-p-y-2">
+		  <div class="mdui-list">
+			<a href="./qwq/lg.html" class="mdui-shadow-8 mdui-list-item mdui-ripple">凌鸽</a>
+			<br>
+			<a mdui-dialog="{target: '#a'}" class="mdui-shadow-8 mdui-list-item mdui-ripple">雪玲</a>
+			<br>
+			<a mdui-dialog="{target: '#a'}" class="mdui-shadow-8 mdui-list-item mdui-ripple">河西</a>
+			<br>
+			<a mdui-dialog="{target: '#a'}" class="mdui-shadow-8 mdui-list-item mdui-ripple">盟德</a>
+			<br>
+			<a mdui-dialog="{target: '#a'}" class="mdui-shadow-8 mdui-list-item mdui-ripple">冰原</a>
+			<br>
+			<a mdui-dialog="{target: '#a'}" class="mdui-shadow-8 mdui-list-item mdui-ripple">超市</a>
+		  </div>
+		  </div>
+		  <div class="mdui-dialog" id="a">
+			<div class="mdui-dialog-content">暂时没有记录，请联系管理添加！</div>
+			<div class="mdui-dialog-actions">
+			  <button class="mdui-btn mdui-ripple" mdui-dialog-close>好的</button>
+			</div>
+		  </div>
+		  </body>
+		  <script>
+			function getRTime(){ 
+var EndTime= new Date('2023/4/5 00:00:00'); //截止时间 
+var NowTime = new Date(); 
+var t =EndTime.getTime() - NowTime.getTime(); 
+/*var d=Math.floor(t/1000/60/60/24); 
+t-=d*(1000*60*60*24); 
+var h=Math.floor(t/1000/60/60); 
+t-=h*60*60*1000; 
+var m=Math.floor(t/1000/60); 
+t-=m*60*1000; 
+var s=Math.floor(t/1000);*/
+ 
+var d=Math.floor(t/1000/60/60/24); 
+var h=Math.floor(t/1000/60/60%24); 
+var m=Math.floor(t/1000/60%60); 
+var s=Math.floor(t/1000%60); 
+ 
+document.getElementById("t_d").innerHTML = d + "天"; 
+document.getElementById("t_h").innerHTML = h + "时"; 
+document.getElementById("t_m").innerHTML = m + "分"; 
+document.getElementById("t_s").innerHTML = s + "秒"; 
+} 
+setInterval(getRTime,1000); 
+		  </script>
 		  <footer>
 			  <div style="color: darkgray;" class="mdui-text-center">
 			  Theme By AuogSix
